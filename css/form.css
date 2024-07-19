@@ -1,0 +1,68 @@
+html, body{
+    width: 100%;
+}
+.box{
+    text-align: center;
+    background:ghostwhite;
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    position: absolute;
+    left: 50%; top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 20px 0px #000;
+}
+.box h3{
+    color: black;
+}
+.box input[type="password"], .box input[type="text"],  .box input[type="tel"]{
+    background: none;
+    outline: none;
+    width: 210px;
+    height: 40px;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    border: solid 2px  #007BFF;
+    transition: 1s;
+    border: none;
+    border-bottom: 1px solid #000; 
+}
+.box input[type="radio"]{
+    background: none;
+    outline: none;
+    width: 20px;
+    height: 10px;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    border: solid 2px  #007BFF;
+    transition: 1s;
+    border-radius: 30px;
+}
+.box input[type="password"]:focus, .box input[type="text"]:focus{
+    width: 320px;
+    border-color: chartreuse;
+    transition: 1s;
+}
+.box input[type="submit"]{
+    background: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    margin: 15px 0px;
+    color: black;
+    font-size: 18px;
+    transition: 1s;
+}
+.box input[type="submit"]:hover{
+    background:black ;
+    transition: 1s;
+    color: white;
+}
+form>a{
+    text-decoration: none;
+    color: #fff;
+}
+form>a:hover{
+   color:  white;
+   
+}

@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 30px;
+}
+.mr{
+    margin-right:1%;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    background-color: aqua;
+    border: 1px rebeccapurple solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 1.2vw;
+}
+.menu{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 20%;
+}
+.footer{
+    background-color: aqua;
+    border: 1px rebeccapurple solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;  
+    padding: 20px;
+}
+.boxtitle{
+    background-color: aliceblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border:1px #ccc solid;   
+    color: black;
+    padding: 10px;
+}
+.boxconten{
+    border-left:1px #ccc solid;   
+    border-right:1px #ccc solid; 
+    border-bottom:1px #ccc solid; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxconten2{
+    border-left:1px #ccc solid;   
+    border-right:1px #ccc solid; 
+    min-height: 200px;
+    background-color: #eee;
+}
+.boxfooter{
+    background-color: aliceblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:1px #ccc solid; 
+    padding: 10px;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+    width: 100%;
+}
+.boxsp{
+    min-height: 300px;
+    float: left;
+    width: 32%;
+    border-radius: 5px;
+    border: #ccc 1px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.boxsp img{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+.boxsp {
+    text-align: center;
+    
+}
+.boxsp a {
+    text-decoration: none;
+    color: red;
+    font-size: large;
+}
+.boxsp p{
+    text-decoration: none;
+    color:blueviolet;
+    font-size: large;
+}
+.boxsp a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+.menu ul{
+    padding: 0 15px;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li :hover{
+    color: aqua;
+}
+.formtk{
+    line-height: 200%;
+}
+.boxconten li a:hover{
+     color: red;
+}
+.menudoc ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #eee;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: aqua;
+    display: block;
+}
+.menudoc ul li a:hover{
+    color: brown;
+}
+.boxfooter form input{
+    text-align: center;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.top10 img{
+    float: left;
+    width: 20%;
+    height: 50px;
+    margin-right: 10px;
+}
+.top10 a{
+    color: blue;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: red;
+}
+.formconten{
+    padding: 20px;
+}
+.formconten input[type="text"] {
+     width: 100%;
+     border-radius:5px ;
+     border: 1px solid black;
+     height: 30px;
+}
+.formds table{
+width: 100%;
+border-collapse: collapse;
+border: #666 1px solid;
+}
+.formds table th{
+
+        padding: 20px;
+    background-color: #ccc;
+}
+/* .formds table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.formds table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+.formds table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+} */
+.formds table td{
+    padding: 10px 20px;
+    border: #ccc 1px solid;
+}
+
+.sidebar1 {
+    width: 250px;
+    background-color:w;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+}
+.menu1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item1 {
+    margin-bottom: 10px;
+}
+
+.menu1 .menu-item1 a {
+    text-decoration: none;
+    color:black ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight:  bolder;
+}
+.menu-item1s a:hover {
+    font-size: large;
+    color: red  ;
+}

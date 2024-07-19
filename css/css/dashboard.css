@@ -1,0 +1,73 @@
+
+.sidebar1 {
+    width: 250px;
+    background-color:w;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 40px;
+}
+.menu1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item1 {
+    margin-bottom: 10px;
+}
+
+.menu1 .menu-item1 a {
+    text-decoration: none;
+    color:black ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight:  bolder;
+}
+.menu-item1s a:hover {
+    font-size: large;
+    color: red  ;
+}
+.container{
+    display: flex;
+}
+.table{
+    margin: 70px;
+    width: 200px;
+}
+table {
+    width: 100%;
+    border-collapse: separate; /* Sử dụng separate thay vì collapse */
+        border-spacing: 0; /* Loại bỏ khoảng cách giữa các ô */
+        border: none;
+  }
+  
+  th, td {
+    padding: 8px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  }
+  
+  tr:hover th,
+  tr:hover td {
+    background-color: #e74c3c;
+    color: #000;
+    border-spacing: 0; /* Loại bỏ khoảng cách giữa các ô */
+    transition: transform 0.3s ease-in-out;
+  }
+  .header{
+    display: flex;
+  }
+  .header select{
+    width: 550px;
+    height: auto;
+    margin-right: 200px;
+    margin-top: 29px;
+  }
+  .title h2{
+    text-align: center;
+  }
+  form{
+    width: 700px;
+    margin-left: 350px;
+    margin-top: 150px  }

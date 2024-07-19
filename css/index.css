@@ -1,0 +1,83 @@
+.a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+margin-top: 100px;
+font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #212b36
+  }
+  
+  .card {
+
+    width: 23%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none; 
+    margin: 5px; 
+    text-align: center; /* Căn giữa nội dung trong thẻ */
+  }
+  .name h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #212b36;
+    margin: 0 0 5px;
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+  }
+  .button {
+    display: flex;
+    justify-content:center;
+  }
+  
+  .button-link {
+    opacity: 0;
+    flex: 1;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    /* transition: opacity 1s; */
+    cursor: pointer;
+    transition: transform 0.5s;
+  transform: translateY(8px);
+  }
+  
+  .primary-button {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .secondary-button {
+    background-color:black;
+    color: #fff;
+    padding: 10px 0px;
+  }
+  
+  .button-link:hover {
+    background-color: black;
+    opacity: 1;
+  }
+  .card:hover .button-link {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+ .nd{
+    display: flex;
+ }
+ .size h2 a{
+    /* display: block; */
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald' !important;
+    font-weight: bold;
+    color: #212b36;
+    text-decoration: none;
+ }
+ 

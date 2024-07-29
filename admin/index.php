@@ -30,6 +30,7 @@ if(isset( $_GET['act'])){
                 $listtk = loadall_taikhoan();
                 include "taikhoan/list.php";
                 break;
+                //
              
                 // case 'adduser':
                 //     if (isset($_POST['addtk']) && ($_POST['addtk'] )) {

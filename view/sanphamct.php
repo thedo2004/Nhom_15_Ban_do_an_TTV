@@ -48,7 +48,7 @@
                       <span class="price">'.$price.' Vnđ</span>
                     </div>
                     <div class="prices">Số lượng:
-                    <span class="description">'.$luotxem.'</span>
+                    <span class="description">'.$soluong.'</span>
                   </div>
                     <p>'.$mota.'</p>
                     <div class="product-quick-action">

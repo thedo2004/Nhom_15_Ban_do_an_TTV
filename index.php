@@ -13,6 +13,8 @@ $spnew = loadall_sanpham_home();
 if ((isset($_GET['act']))&&($_GET['act'])) {
     $act=$_GET['act'];
     switch ($act) {
+
+        // 
         
         case 'spct':
             if (isset($_GET['idsp']) && ($_GET['idsp'] > 0)) {

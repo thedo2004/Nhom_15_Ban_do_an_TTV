@@ -176,8 +176,8 @@
       </section>
       <!--== End Shopping Checkout Area Wrapper ==-->
       <?php
-                            if(isset($thongbao)&&($thongbao!="")) echo $thongbao.'<br>'
-                       ?> 
+          if(isset($thongbao)&&($thongbao!="")) echo $thongbao.'<br>'
+          ?> 
   </div>
 <script src="assets/js/jquery-main.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

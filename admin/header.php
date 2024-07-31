@@ -14,6 +14,7 @@
    <div class="menu1">
    <div class="menu-item1">
            <a href="../index.php"> 
+            
        <img class="img" src="../img/logo.png" alt="" width="200px"/>
        </a>
        </div>

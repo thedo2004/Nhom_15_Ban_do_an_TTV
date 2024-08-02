@@ -11,6 +11,7 @@
 
 <header>
 <?php
+//
         extract($bill);
         $countsp=loadall_cart_count($bill["id"]);
         $ttdh=get_ttdh($bill_status);

@@ -18,6 +18,7 @@
         </div>
       </form>
 <div class="nd">
+  
              <?php
     $i=0;
     foreach ($dssp as $sp) {
@@ -28,6 +29,7 @@ if (isset($img_path)) {
 //     echo '<div class="boxsp mr">
 //     <img src="'.$hinh.'" alt="">
 //     <p>'.$price.'</p>
+//
 //     <a href="'.$linksp.'">'.$names.'</a>
 // </div>';
 echo'   <div class="card">

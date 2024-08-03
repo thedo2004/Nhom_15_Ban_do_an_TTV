@@ -79,15 +79,15 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <img src="upload/qr.jpg">
+                          <img src="upload/z5654538899846_ed3d5fc7ad4bc12ec64e8750fe1f26f3.jpg">
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                           <br><br>
                           <label for="f_name">MB Bank</label><br>
-                          <label for="f_name">0325903017</label><br>
-                          <label for="f_name">DO HUU TRONG</label>
+                          <label for="f_name">0943772174</label><br>
+                          <label for="f_name">NGUYEN VAN VU</label>
                         </div>
                       </div>
                       <div class="col-md-12">
@@ -176,8 +176,8 @@
       </section>
       <!--== End Shopping Checkout Area Wrapper ==-->
       <?php
-                            if(isset($thongbao)&&($thongbao!="")) echo $thongbao.'<br>'
-                       ?> 
+          if(isset($thongbao)&&($thongbao!="")) echo $thongbao.'<br>'
+          ?> 
   </div>
 <script src="assets/js/jquery-main.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

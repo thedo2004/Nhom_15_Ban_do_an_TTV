@@ -17,10 +17,12 @@ $danhSachDanhMuc = array_slice($listtk, $viTriBatDau, $soDanhMucTrenTrang);
 $sql = "SELECT * FROM a LIMIT $viTriBatDau, $soDanhMucTrenTrang";
 
 ?>
-<div class="table">    
-    <div class="title" ><h2 style="text-align: center;"> QUẢN LÍ TÀI KHOẢN</h2></div>
-    <a href="index.php?act=addtk"><button type="button" class="btn btn-primary" style="margin-left: 80px; margin-top:30px;">Add</button></a>  
-    <table class="table">        
+<div class="table">
+    <div class="title">
+        <h2 style="text-align: center;"> QUẢN LÍ TÀI KHOẢN</h2>
+    </div>
+    <a href="index.php?act=addtk"><button type="button" class="btn btn-primary" style="margin-left: 80px; margin-top:30px;">Add</button></a>
+    <table class="table">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -34,9 +36,9 @@ $sql = "SELECT * FROM a LIMIT $viTriBatDau, $soDanhMucTrenTrang";
         </thead>
         <tbody>
             <?php
-                foreach ($danhSachDanhMuc as $taikhoan) {
-                    extract($taikhoan);
-                    $lockUnlockUrl = $is_locked ? "index.php?act=unlock&id=".$id : "index.php?act=lock&id=".$id;
+            foreach ($danhSachDanhMuc as $taikhoan) {
+                extract($taikhoan);
+                $lockUnlockUrl = $is_locked ? "index.php?act=unlock&id=" . $id : "index.php?act=lock&id=" . $id;
             ?>
                 <tr>
                     <td><?php echo $id; ?></td>
@@ -54,18 +56,20 @@ $sql = "SELECT * FROM a LIMIT $viTriBatDau, $soDanhMucTrenTrang";
                     </td>
                 </tr>
             <?php
-                }
+            }
             ?>
         </tbody>
     </table>
-    <div class="textcolor"><nav aria-label="Page navigation example" style="margin-left:450px">
-  <ul class="pagination">
-  <li class="page-item"><a class="page-link" href="index.php?act=listtk&trang=<?php echo $trangHienTai-1;?>">Previous</a></li>    <?php
-    for ($i = 1; $i <= ceil(count($listtk) / $soDanhMucTrenTrang); $i++) {
-      echo '
+    <div class="textcolor">
+        <nav aria-label="Page navigation example" style="margin-left:450px">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="index.php?act=listtk&trang=<?php echo $trangHienTai - 1; ?>">Previous</a></li> <?php
+                                                                                                                                                for ($i = 1; $i <= ceil(count($listtk) / $soDanhMucTrenTrang); $i++) {
+                                                                                                                                                    echo '
       <li class="page-item"><a class="page-link" href="index.php?act=listtk&trang=' . $i . '">' . $i . '</a></li>';
-    }
-    ?>
-<li class="page-item"><a class="page-link" href="index.php?act=listtk&trang=<?php echo $trangHienTai + 1; ?>">Next</a></li>
-</nav> </div>
+                                                                                                                                                }
+                                                                                                                                                ?>
+                <li class="page-item"><a class="page-link" href="index.php?act=listtk&trang=<?php echo $trangHienTai + 1; ?>">Next</a></li>
+        </nav>
+    </div>
 </div>

@@ -47,6 +47,7 @@ if ((isset($_GET['act']))&&($_GET['act'])) {
             case 'dangky':
                 if (isset($_POST['dangki']) && ($_POST['dangki'])) {
                     // Lấy giá trị từ form
+                    //
                     $user = isset($_POST['user']) ? $_POST['user'] : '';
                     $email = isset($_POST['email']) ? $_POST['email'] : '';
                     $pass = isset($_POST['pass']) ? $_POST['pass'] : '';

@@ -66,6 +66,8 @@ if ((isset($_GET['act']))&&($_GET['act'])) {
                         $thongbao = "Đăng ký thành công";
                     }
                 }
+
+                //
                 include "view/taikhoan/dangki.php";
                 break;
             

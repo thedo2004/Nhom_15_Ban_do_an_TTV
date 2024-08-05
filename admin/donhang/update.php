@@ -53,6 +53,7 @@
 
 <?php } if($bill_status!=4){ ?>
   <div class="mb-3">
+  
   <label for="disabledTextInput" class="form-label">Trạng thái đơn hàng</label>
   <select name="billstatus" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
   <option value="1">Chờ kiểm tra</option>

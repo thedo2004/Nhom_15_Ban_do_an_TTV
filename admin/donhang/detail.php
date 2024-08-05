@@ -10,10 +10,12 @@
   <label for="disabledTextInput" class="form-label">Mã đơn hàng</label>
       <input name="maloai"  type="text" id="disabledTextInput" class="form-control" value="<?php if(isset($id)&&($id!="")) echo "H2T-".$id;?>" disabled>
   </div>
+  
   <div class="mb-3">
   <label for="disabledTextInput" class="form-label">Tên Người Nhận</label>
   <input name="billname" value="<?php if(isset($bill_name)&&($bill_name!="")) echo $bill_name;?>" disabled type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
   </div>
+  
   <div class="mb-3">
   <label for="disabledTextInput" class="form-label">Email</label>
   <input name="billemail" value="<?php if(isset($bill_email)&&($bill_email!="")) echo $bill_email;?>" disabled type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
@@ -66,9 +68,7 @@
 <?php } ?>
 
 
-
-
-  <input type="hidden" name="id" value="<?php if(isset($id)&&($id>0)) echo $id;?>">
+<input type="hidden" name="id" value="<?php if(isset($id)&&($id>0)) echo $id;?>">
   <input type="submit" name="capnhat" value="Update" style=" padding: 10px 20px; 
       font-size: 16px; 
       cursor: pointer; 
@@ -76,6 +76,7 @@
       color: #fff; 
       border: none; 
       border-radius: 5px;">
+  
   <a href="index.php?act=listbill">  <input type="button" value="list" style=" padding: 10px 20px; 
       font-size: 16px; 
       cursor: pointer; 

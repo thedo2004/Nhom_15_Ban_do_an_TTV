@@ -24,7 +24,8 @@ $sql = "SELECT * FROM a LIMIT $viTriBatDau, $soDanhMucTrenTrang";
     -->
         <table class="table">
             <thead>
-              <tr>
+              
+            <tr>
                 <th scope="col">Mã đơn hàng</th>
                 <th scope="col">Khách hàng</th>
                 <th scope="col">Số lượng hàng</th>
@@ -32,6 +33,7 @@ $sql = "SELECT * FROM a LIMIT $viTriBatDau, $soDanhMucTrenTrang";
                 <th scope="col">Tình trạng đơn hàng</th>
                 <th scope="col">Hành động</th>
               </tr>
+              
             </thead>
             <tbody>
             <?php

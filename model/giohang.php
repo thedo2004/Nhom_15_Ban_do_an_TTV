@@ -110,6 +110,7 @@ function get_pttt($n){
     }
     return $tt;
 }
+
 function cancel_donhang($id){
     $sql="update donhang set bill_status =5 where id=".$id;
     pdo_execute($sql);

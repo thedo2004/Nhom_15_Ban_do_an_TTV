@@ -4,7 +4,8 @@
            <a href="index.php?act=addtk"><button type="button" class="btn btn-primary" style="margin-left: 80px; margin-top:30px;">Add</button> </a>  
        <table class="table">        
             <thead>
-              <tr>
+              
+            <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
                 <th scope="col">email</th>

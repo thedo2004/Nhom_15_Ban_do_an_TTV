@@ -52,6 +52,7 @@ $sql = "SELECT * FROM a LIMIT $viTriBatDau, $soDanhMucTrenTrang";
                             <td>'.$bill['total'].' </td>
                             <td>'.$ttdh.' </td>
                             <td> 
+                            
                             <a href="'.$xoadh.'"><button type="button" class="btn btn-danger">Delete</button></a>
                             <a href="'.$suadh.'"><button type="button" class="btn btn-success">Edit</button></a></td>
                         </tr>';

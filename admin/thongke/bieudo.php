@@ -21,6 +21,7 @@ const data = google.visualization.arrayToDataTable([
   <?php
   $tongdm=count($listthongke1); 
   $i=1;
+  
   foreach($listthongke1 as $thongke1){
     extract($thongke1);
     if ($i==$tongdm) $dauphay="";else $dauphay=",";

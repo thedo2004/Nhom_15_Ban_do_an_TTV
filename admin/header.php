@@ -23,6 +23,24 @@
        <div class="menu-item1">
            <a href="index.php?act=listsp">SẢN PHẨM</a>
        </div>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/phantrang.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar1">
+   <div class="menu1">
+   <div class="menu-item1">
+           <a href="../index.php"> 
+       <img class="img" src="../img/logo.png" alt="" width="200px"/>
+       </a>
+       </div>
+       <div class="menu-item1">
+           <a href="index.php?act=listdm">DANH MỤC</a>
+       </div>
+       <div class="menu-item1">
+           <a href="index.php?act=listsp">SẢN PHẨM</a>
+       </div>
        <div class="menu-item1">
            <a href="index.php?act=listtk">KHÁCH HÀNG</a>
        </div>

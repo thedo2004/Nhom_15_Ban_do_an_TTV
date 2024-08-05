@@ -33,14 +33,14 @@ function validate_taikhoan($user, $email, $address, $tel, $pass) {
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         return "Email không hợp lệ.";
     }
-
     // Kiểm tra độ dài mật khẩu
     $password_error = validate_password_length($pass);
+    
     if ($password_error !== null) {
         return $password_error;
     }
 
-    return null; // Trả về null nếu không có lỗi
+    return null;// Trả về null nếu không có lỗi
 };
 function validate_password_length($password) {
     // Độ dài tối thiểu cho mật khẩu

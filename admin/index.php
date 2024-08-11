@@ -131,6 +131,7 @@ if(isset( $_GET['act'])){
                                 $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : '';
                                 $hinh = isset($_FILES['hinh']['name']) ? $_FILES['hinh']['name'] : '';
                                 $error_message = validate_sanpham($iddm, $tensp, $giasp, $mota, $hinh,$soluong);
+                                
                                 if ($error_message === null) {
                                     $target_dir = "../upload/";
                                     $target_file = $target_dir . basename($_FILES["hinh"]["name"]);

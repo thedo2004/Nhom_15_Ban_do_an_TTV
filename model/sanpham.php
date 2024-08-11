@@ -42,6 +42,7 @@ function loadall_sanpham_home(){
         else  $sql="update  sanpham set  names='".$tensp."',price='".$giasp."',mota='".$mota."',soluong='".$soluong."' where id=".$id;
         pdo_execute($sql);
     }
+    
 function validate_sanpham($iddm, $tensp, $giasp, $mota, $hinh,$soluong) {
     // Kiểm tra xem đã nhập đủ thông tin hay không
     if (empty($iddm) || empty($tensp) || empty($giasp) || empty($mota) || empty($hinh)||empty($soluong)) {

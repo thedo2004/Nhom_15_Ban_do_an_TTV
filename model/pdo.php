@@ -65,6 +65,7 @@ function pdo_query($sql){
 // truy vấn  1 dữ liệu
 function pdo_query_one($sql){
     $sql_args=array_slice(func_get_args(),1);
+    
     try{
         $conn=pdo_get_connection();
         $stmt=$conn->prepare($sql);

@@ -10,7 +10,7 @@ function checkuser($email,$pass){
 }
 function update_taikhoan($id,$user,$email,$address,$tel,$pass){
   $sql="update  user set  user='".$user."',email='".$email."',address='".$address."',tel='".$tel."',pass='".$pass."' where id=".$id;
-    pdo_execute($sql);
+    pdo_execute($sql); 
 }
 function loadall_taikhoan(){
     $sql="select * from user order by id desc";
